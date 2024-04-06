@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 
 Route::get('/', function () {
@@ -8,3 +9,7 @@ Route::get('/', function () {
 });
 
 Route::resource('categories', CategoryController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
