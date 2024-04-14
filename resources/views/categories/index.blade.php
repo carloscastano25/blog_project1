@@ -27,5 +27,5 @@
                   </td>
                 </tr>      
             @endforeach
-        </body>
-    @endsection
+        </body> 
+    @endsection  

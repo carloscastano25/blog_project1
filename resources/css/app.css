@@ -1,4 +1,5 @@
 @import 'bootstrap';
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
 body {
     font-family: 'Open Sans', sans-serif;
